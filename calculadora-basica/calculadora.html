@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora</title>
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="shortcut icon" href="https://www.revistaneo.com/sites/default/files/2018-02/shutterstock_deportivo.jpg" type="image/png">
+	</head>
+	
+	<body>
+		<center>
+			<form action="proceso.php" method="POST" name="calculadora">
+				<label> Coloque los valores: </label><br>
+				<input type="text" name="x"><br><br>
+				<input type="text" name="y"><br><br>
+				
+				<label>Selecciona la operacion: <br>
+					<select name="lista">
+						<option value="suma">Sumar</option>
+						<option value="resta">Restar</option>
+						<option value="multiplicacion">Multiplicar</option>
+						<option value="division">Dividir</option>
+					</select>	
+				</label> <br>
+				<input type="submit" value="Ver Resultados">
+		</center>	
+			</form>
+	</body>
+</html>

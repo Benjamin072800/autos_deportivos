@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario</title>
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="shortcut icon" href="https://www.revistaneo.com/sites/default/files/2018-02/shutterstock_deportivo.jpg" type="image/png">
+	</head>
+	<body>
+	<section class="form-register">
+		<center><h4>Formulario</h4></center>
+		<form method="POST" action="./formulario-post.php">
+			<label>Nombre: </label>
+			<input class="controls" name="nombre" type="text">
+			<br><br>
+			
+			<label>Apellido paterno: </label>
+			<input class="controls" name="ap" type="text">
+			<br><br>
+			
+			<label>Apellido materno: </label>
+			<input class="controls" name="am" type="text">
+			<br><br>
+			
+			<label>Elige tu fecha de nacimiento:</label>
+			<input class="controls" type="date" name="fecha">
+			<br><br>
+			
+			<label>Edad: </label>
+			<input class="controls" name="edad" type="number">
+			<br><br>
+			
+			<label>Sexo: </label>
+			<!--Etiqueta select-->
+			<select name="select">
+            <!--Etiqueta option-->
+            <option value="value1">Hombre</option> 
+            <option value="value2" selected>Mujer</option>
+			</select><br><br>
+			
+			<label>Nacionalidad: </label>
+			<input class="controls" name="nacionalidad" type="text">
+			<br><br>
+			
+			<label>Estado:</label>
+			<select name="estados">
+			<option value="value1">Aguascalientes, Aguascalientes </option>
+			<option value="value2"> Baja California, Mexicali</option>
+			<option value="value3"> Baja California Sur, La Paz</option>
+			<option value="value4"> Campeche, San Francisco de Campeche</option>
+			<option value="value5"> Chihuahua, Chihuahua</option>
+			<option value="value6"> Chiapas, Tuxtla Gutiérrez</option>
+			<option value="value7"> Ciudad de México, Ciudad de México</option>
+			<option value="value8"> Coahuila, Saltillo</option>
+			<option value="value9"> Colima, Colima</option>
+			<option value="value10"> Durango, Victoria de Durango</option>
+			<option value="value11"> Guanajuato, Guanajuato</option>
+			<option value="value12"> Guerrero, Chilpancingo de los Bravo</option>
+			<option value="value13"> Hidalgo, Pachuca de Soto</option>
+			<option value="value14"> Jalisco, Guadalajara</option>
+			<option value="value15"> México, Toluca de Lerdo</option>
+			<option value="value16"> Michoacán, Morelia</option>
+			<option value="value17"> Morelos, Cuernavaca</option>
+			<option value="value18"> Nayarit, Tepic</option>
+			<option value="value19"> Nuevo León, Monterrey</option>
+			<option value="value20"> Oaxaca, Oaxaca de Juárez</option>
+			<option value="value21"> Puebla, Puebla de Zaragoza</option>
+			<option value="value22"> Querétaro, Santiago de Querétaro</option>
+			<option value="value23"> Quintana Roo, Chetumal</option>
+			<option value="value24"> San Luis Potosí, San Luis Potosí</option>
+			<option value="value25"> Sinaloa, Culiacán Rosales</option>
+			<option value="value26"> Sonora, Hermosillo</option>
+			<option value="value27"> Tabasco, Villahermosa</option>
+			<option value="value28"> Tamaulipas, Ciudad Victoria</option>
+			<option value="value29"> Tlaxcala, Tlaxcala de Xicohténcatl</option>
+			<option value="value30"> Veracruz, Xalapa-Enríquez</option>
+			<option value="value31"> Yucatán, Mérida</option>
+			<option value="value32"> Zacatecas, Zacatecas</option>
+			</select> <br><br>
+			
+			<label>C.U.R.P.: </label>
+			<input class="controls" name="curp" type="text">
+			<br><br>
+			
+			<label>Tipo de Sangre:</label>
+			<select name="sangre">
+			<option value="value1"> O negativo</option>
+			<option value="value2"> O positivo</option>
+			<option value="value3"> A negativo</option>
+			<option value="value4"> A positivo</option>
+			<option value="value5"> B negativo</option>
+			<option value="value6"> B positivo</option>
+			<option value="value7"> AB negativo</option>
+			<option value="value8">AB positivo</option>
+			</select><br><br>
+			
+			<label>Matricula: </label>
+			<input class="controls" name="matricula" type="numero">
+			<br><br>
+			
+			<label>Programa Academico: </label>
+			<input class="controls" name="programa" type="text">
+			<br><br>
+			
+			<label>N.S.S.I.: </label>
+			<input class="controls" name="nssi" type="numero">
+			<br><br>
+			
+			<label>Nombre del padre: </label>
+			<input class="controls" name="nom" type="text">
+			<br><br>
+			
+			<label>Nombre de la madre: </label>
+			<input class="controls" name="nombr" type="text">
+			<br><br>
+			
+			<!--<label >Promedio:</label>
+			<input type="prom" name="numero">
+			<br><br>FALTA PONERLO EN MIS IMPRESION---->
+			
+			<label >Indica tu correo:</label>
+			<input class="controls" type="email" name="correo">
+			<br><br>
+			<label>Contraseña: </label>
+			<input class="controls" name="pass" type="password">
+			<br><br>
+			
+			
+			
+			<label >Elige un color:</label>
+			<input class="controls" name="color" type="color" id="color">
+			<br><br>
+			
+			
+			
+			<label >Selecciona un archivo:</label>
+			<input class="controls" type="file" name="archivo">   
+			<br><br>
+			
+			<label >Indica el mes:</label>
+			<input class="controls" type="month" name="mes">
+			<br><br>
+			
+			<label >Selecciona un número:</label>
+			<input class="controls" type="number" name="numero">
+			<br><br>
+			
+			<label >Esto es un radio button:</label>
+			<input class="controls" type="radio" name="radio">
+			<br><br>
+			
+			<label >Selecciona un número de rango:</label>
+			<input class="controls" type="range" name="rango" min="0" max="100">
+			<br><br>
+			
+			<label>Campo de búsqueda:</label>
+			<input class="controls" type="search" name="buscar">
+			<br><br>
+			
+			<label>Indica tu teléfono:</label>
+			<input class="controls" type="tel" name="telefono">
+			
+			
+			<label >Indica la hora:</label>
+			<input class="controls" type="time" name="hora">
+		
+			
+			<label >Indica una URL:</label>
+			<input class="controls" type="url" name="url">
+			
+			
+			<label >Indica la semana:</label>
+			<input class="controls" type="week" name="semana">
+			
+			
+			<label>Acepto condiciones</label>
+			<input class="controls" name="check" type="checkbox">
+			
+			
+			<input class="botons" type="submit" value="Enviar">
+		</form>
+		</section>
+	</body>
+</html>
